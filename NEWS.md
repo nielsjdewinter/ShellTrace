@@ -1,3 +1,6 @@
+# Version 3.4.0
+    Synchronize package with Git
+
 # Version 3.3.2
     Revise examples to limit data file size
     Update documentation of data files
