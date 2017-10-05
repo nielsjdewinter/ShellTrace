@@ -1,3 +1,7 @@
+# Version 3.5.0
+    Add url links to all documentation
+    Synchronize and test with Travis
+
 # Version 3.4.0
     Synchronize package with Git
 

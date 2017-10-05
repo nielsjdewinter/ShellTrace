@@ -30,7 +30,12 @@ Oyster_subincr_shell_height(subincr_matrix, IncG, Xstep)
 \note{Please cite Geoscientific Model Development paper dealing with the
    ShellTrace model}
 \seealso{"Oyster_Shell_height"}
-
+\source{
+\href{https://github.com/nielsjdewinter/ShellTrace}{GitHub} \cr
+\href{https://doi.org/10.5194/gmd-2017-137}{Manuscript} \cr
+\href{https://doi.org/10.5194/gmd-2017-137-supplement}{Supplementary data} \cr
+\href{http://nidewint.wixsite.com/nielsdewinter}{Author website}
+}
 \examples{
   subincr_matrix2<-Oyster_subincr_shell_height(subincr_matrix1,IncG,Xstep=1)
 }

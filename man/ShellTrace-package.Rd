@@ -18,16 +18,24 @@
                  in review)}
 \author{Niels J. de Winter
 
-Maintainer: Niels J. de Winter
+    Maintainer: Niels J. de Winter
 }
 \references{de Winter, N. J.: ShellTrace v1.0 - A new approach for modelling
      growth and trace element uptake in marine bivalve shells: Model
-         verification on pacific oyster shells (Crassostrea gigas), Geosci.
-             Model Dev. Discuss., https://doi.org/10.5194/gmd-2017-137,
-                 in review, 2017.}
+     verification on pacific oyster shells (Crassostrea gigas), Geosci.
+     Model Dev. Discuss., https://doi.org/10.5194/gmd-2017-137, in review,
+     2017.}
+
+\seealso{
+\href{https://github.com/nielsjdewinter/ShellTrace}{GitHub} \cr
+\href{https://doi.org/10.5194/gmd-2017-137}{Manuscript} \cr
+\href{https://doi.org/10.5194/gmd-2017-137-supplement}{Supplementary data} \cr
+\href{http://nidewint.wixsite.com/nielsdewinter}{Author website}
+}
+
 
 \examples{print("de Winter, N. J.: ShellTrace v1.0 - A new approach for
      modelling growth and trace element uptake in marine bivalve shells:
-         Model verification on pacific oyster shells (Crassostrea gigas),
-             Geosci. Model Dev. Discuss., in review, 2017.")
+     Model verification on pacific oyster shells (Crassostrea gigas),
+     Geosci. Model Dev. Discuss., in review, 2017.")
 }

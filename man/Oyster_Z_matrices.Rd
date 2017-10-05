@@ -28,7 +28,12 @@ Oyster_Z_matrices(IncG, subincr_matrix)
 \note{Please cite Geoscientific Model Development paper dealing with the
    ShellTrace model}
 \seealso{"Oyster_av_thickness"}
-
+\source{
+\href{https://github.com/nielsjdewinter/ShellTrace}{GitHub} \cr
+\href{https://doi.org/10.5194/gmd-2017-137}{Manuscript} \cr
+\href{https://doi.org/10.5194/gmd-2017-137-supplement}{Supplementary data} \cr
+\href{http://nidewint.wixsite.com/nielsdewinter}{Author website}
+}
 \examples{
   Z_mat<-Oyster_Z_matrices(IncG, subincr_matrix4)
 }

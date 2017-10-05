@@ -32,7 +32,12 @@ Calculates mass gain from modelled changes in volume based on the shell
 \note{Please cite Geoscientific Model Development paper dealing with the
    ShellTrace model}
 \seealso{"Oyster_av_thickness"}
-
+\source{
+\href{https://github.com/nielsjdewinter/ShellTrace}{GitHub} \cr
+\href{https://doi.org/10.5194/gmd-2017-137}{Manuscript} \cr
+\href{https://doi.org/10.5194/gmd-2017-137-supplement}{Supplementary data} \cr
+\href{http://nidewint.wixsite.com/nielsdewinter}{Author website}
+}
 \examples{
   subincr_matrix6<-Oyster_Mass_gain(subincr_matrix5, phase_mat, O1_phase)
 }

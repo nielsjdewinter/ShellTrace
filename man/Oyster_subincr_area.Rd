@@ -28,7 +28,12 @@ Oyster_subincr_area(IncG, subincr_matrix, Xstep)
 \note{Please cite Geoscientific Model Development paper dealing with the ShellTrace
    model}
 \seealso{"Oyster_Shell_length"}
-
+\source{
+\href{https://github.com/nielsjdewinter/ShellTrace}{GitHub} \cr
+\href{https://doi.org/10.5194/gmd-2017-137}{Manuscript} \cr
+\href{https://doi.org/10.5194/gmd-2017-137-supplement}{Supplementary data} \cr
+\href{http://nidewint.wixsite.com/nielsdewinter}{Author website}
+}
 \examples{
   subincr_matrix1<-Oyster_subincr_area(IncG, subincr_matrix0, Xstep=1)
 }

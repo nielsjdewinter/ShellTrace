@@ -30,7 +30,12 @@ A list of two items:
 \author{Niels J. de Winter}
 \note{Please cite Geoscientific Model Development paper dealing with the
    ShellTrace model}
-
+\source{
+\href{https://github.com/nielsjdewinter/ShellTrace}{GitHub} \cr
+\href{https://doi.org/10.5194/gmd-2017-137}{Manuscript} \cr
+\href{https://doi.org/10.5194/gmd-2017-137-supplement}{Supplementary data} \cr
+\href{http://nidewint.wixsite.com/nielsdewinter}{Author website}
+}
 \examples{
   \dontrun{
     List4<-Oyster_run_sec4(IncG, subincr_matrix4, Xstep = 1)

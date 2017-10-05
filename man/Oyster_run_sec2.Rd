@@ -35,7 +35,12 @@ List of three items:
 \author{Niels J. de Winter}
 \note{Please cite Geoscientific Model Development paper dealing with
    the ShellTrace model}
-
+\source{
+\href{https://github.com/nielsjdewinter/ShellTrace}{GitHub} \cr
+\href{https://doi.org/10.5194/gmd-2017-137}{Manuscript} \cr
+\href{https://doi.org/10.5194/gmd-2017-137-supplement}{Supplementary data} \cr
+\href{http://nidewint.wixsite.com/nielsdewinter}{Author website}
+}
 \examples{
   List2<-Oyster_run_sec2(O1_input, image_length, Xstep=1)
 }
