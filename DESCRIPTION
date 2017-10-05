@@ -23,5 +23,6 @@ Description:
     the form of XLSX files. de Winter, N. J. (2017) <doi:10.5194/gmd-2017-137>.
 License: GPL-3
 LazyData: true
-URL: http://nidewint.wixsite.com/nielsdewinter
+URL: https://github.com/nielsjdewinter/ShellTrace
+BugReports: https://github.com/nielsjdewinter/ShellTrace/issues
 RoxygenNote: 6.0.1
