@@ -1,0 +1,47 @@
+---
+output:
+  md_document:
+    variant: markdown_github
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# shelltrace
+
+The goal of shelltrace is to provide the user with an open-source,
+ widely accessible version of the ShellTrace model that is described
+ in the Geoscientific Model Development Paper "ShellTrace v1.0 - A
+ new approach for modelling growth and trace element uptake in marine
+ bivalve shells: Model verification on pacific oyster shells
+ (Crassostrea gigas)". The model reconstructs growth rates and the rates
+ of incorporation of trace elements into the shells of bivalves. The goal
+ of the model is to reconstruct uptake rates of various trace elements in
+ order to shed light on the processes that influence these uptake rate and
+ to enable the discussion of trace element concentrations in bivalve
+ shells in relation to their environment.
+
+## Instructions
+
+The way this package works is slightly different from a regular R package.
+ Most of the functions contained in this package are not meant to run
+ individually. Instead, they form a sequence of steps that need to be followed
+ for the model to work. Examples of all functions and a detailed explanation of
+ their mathmatics are found in the paper which explains the model. Some functions,
+ such as "Oyster_plot_cross_section" are meant to be run by itself, but all
+ functions are embedded in larger functions, such as "Oyster_combined_run" that
+ run all functions of the model in the right order.
+
+# Availability
+
+Besides being uploaded to the CRAN database, the source code of this entire
+package will also be made available online as a supplement to the paper in
+Geoscientific Model Development and as an entry in the open source research
+data repository Zenodo (http://doi.org/10.5281/zenodo.817258).

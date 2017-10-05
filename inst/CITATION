@@ -1,0 +1,16 @@
+citHeader("To cite shelltrace in publications use:")
+
+citEntry(entry = "Article",
+         title        = "ShellTrace v1.0 - A new approach for modelling growth and trace element uptake in marine bivalve shells: Model verification on pacific oyster shells (Crassostrea gigas)",
+         author       = personList(as.person("Niels de Winter")),
+         journal      = "Geoscientific Model Development",
+         year         = "2017",
+         number       = "gmd-2017-137",
+         url          = "https://www.geosci-model-dev-discuss.net/gmd-2017-137",
+
+         textVersion  =
+           paste("de Winter, Niels J. (2017).",
+                 "ShellTrace v1.0 - A new approach for modelling growth and trace element uptake in marine bivalve shells: Model verification on pacific oyster shells (Crassostrea gigas)",
+                 "Geoscientific Model Development Discussions, gmd-2017-137",
+                 "URL https://www.geosci-model-dev-discuss.net/gmd-2017-137")
+)

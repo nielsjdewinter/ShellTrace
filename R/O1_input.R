@@ -1,0 +1,41 @@
+#' Digitized growth increments in cross section of modern oyster.
+#'
+#' A dataset containing X- and Y-coordinates of digitized growth increments
+#' from the Crassostrea gigas #1 oyster used as an example in de Winter (2017)
+#'
+#' @docType data
+#'
+#' @usage data(O1_input)
+#'
+#' @format A data frame with 181 rows and 26 variables:
+#'
+#' \describe{
+#'   \item{x_base}{X-coordinate in pixels of bottom line on image}
+#'   \item{y_base}{Y-coordinate in pixels of bottom line on image, second row value represents the day of the year}
+#'   \item{EMPTY1}{Empty column}
+#'   \item{x_top}{X-coordinate in pixels of top of Crassostrea gigas shell #1 (increment 0)}
+#'   \item{y_top}{Y-coordinate in pixels of top of Crassostrea gigas shell #1 (increment 0), second row value represents the age in days (=0)}
+#'   \item{EMPTY2}{Empty column}
+#'   \item{x_1}{X-coordinate in pixels of increment 1}
+#'   \item{y_1}{Y-coordinate in pixels of increment 1, second row value represents the age in days}
+#'   \item{EMPTY3}{Empty column}
+#'   \item{x_2}{X-coordinate in pixels of increment 2}
+#'   \item{y_2}{Y-coordinate in pixels of increment 2, second row value represents the age in days}
+#'   \item{EMPTY4}{Empty column}
+#'   \item{x_3}{X-coordinate in pixels of increment 3}
+#'   \item{y_3}{Y-coordinate in pixels of increment 3, second row value represents the age in days}
+#'   \item{EMPTY5}{Empty column}
+#'   \item{x_4}{X-coordinate in pixels of increment 4}
+#'   \item{y_4}{Y-coordinate in pixels of increment 4, second row value represents the age in days}
+#'   \item{EMPTY6}{Empty column}
+#'   \item{x_5}{X-coordinate in pixels of increment 5}
+#'   \item{y_5}{Y-coordinate in pixels of increment 5, second row value represents the age in days}
+#'   \item{EMPTY7}{Empty column}
+#'   \item{x_6}{X-coordinate in pixels of increment 6}
+#'   \item{y_6}{Y-coordinate in pixels of increment 6, second row value represents the age in days}
+#'   \item{EMPTY8}{Empty column}
+#'   \item{x_bottom}{X-coordinate in pixels of bottom of Crassostrea gigas shell #1}
+#'   \item{y_bottom}{Y-coordinate in pixels of bottom of Crassostrea gigas shell #1, second row value represents the age in days (= age of death)}
+#' }
+#' @source \url{https://doi.org/10.5194/gmd-2017-137-supplement}
+"O1_input"
