@@ -1,3 +1,6 @@
+# Version 3.5.1
+    Edit reference in DESCRIPTION file
+
 # Version 3.5.0
     Add url links to all documentation
     Synchronize and test with Travis

@@ -1,11 +1,7 @@
 ## Resubmission
 This is a resubmission. In this version I have:
 
-* Revised the functions to include seasonal parameters.
-
-* Included examples in all executable functions.
-
-Please refer to NEWS.md for details on the changes that were made
+* Revised DESCRIPTION file to update a reference
 
 ## Test environments
 * local Windows 10 install, R 3.4.1

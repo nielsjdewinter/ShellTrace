@@ -1,7 +1,7 @@
 Package: shelltrace
 Type: Package
 Title: Bivalve Growth and Trace Element Accumulation Model
-Version: 3.5.0
+Version: 3.5.1
 Date: 2017-09-27
 Author: Niels J. de Winter
 Maintainer: Niels J. de Winter <niels.de.winter@vub.be>
