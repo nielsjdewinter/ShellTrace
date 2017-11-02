@@ -14,8 +14,8 @@ function(phasemat, IncG, pixelsize, phases, subincr_matrix, npma, name_file){
 
     print("Calculating accumulation rates based on concentrations through time and mass accumulation of growth model")
     AccL<-Oyster_accumulation(el_time, subincr_matrix, npma) 
-    M_el_mat_c<-as.data.frame(AccL[1])
-    M_el_mat<-as.data.frame(AccL[2])
+    M_el_mat<-as.data.frame(AccL[1])
+    M_el_mat_c<-as.data.frame(AccL[2])
 
     print("Exporting data as list")
     List6<-list(el_time, M_el_mat, M_el_mat_c, subincr_matrix)
